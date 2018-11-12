@@ -5,12 +5,71 @@ https://guide-acs.m.taobao.com/gw/mtop.taobao.iliad.comment.query.latest/1.0/?da
 https://guide-acs.m.taobao.com/gw/mtop.taobao.iliad.comment.query.latest/1.0/?data=%7B%22tab%22%3A%222%22%2C%22limit%22%3A%2220%22%2C%22topic%22%3A%221e6b4dfd-2478-4ad7-96f4-f1f46fdcce86%22%2C%22paginationContext%22%3A%22%7B%5C%22commentId%5C%22%3A213557207368%2C%5C%22refreshTime%5C%22%3A1541994079472%2C%5C%22timestamp%5C%22%3A1541994076000%7D%22%2C%22order%22%3A%22asc%22%7D
 
 
-
-https://guide-acs.m.taobao.com/gw/mtop.mediaplatform.live.poplayer.list/1.0/?data=%7B%7D
-
-https://guide-acs.m.taobao.com/gw/mtop.mediaplatform.livedetail.messinfo/1.0/?data=%7B%22serviceVersion%22%3A%224.0%22%2C%22s%22%3A%220%22%2C%22CREATOR%22%3A%22%7B%7D%22%2C%22creatorId%22%3A%222020313224%22%2C%22PARCELABLE_WRITE_RETURN_VALUE%22%3A%221%22%2C%22accountStays%22%3A%222020313224%3A0%22%2C%22PARCELABLE_ELIDE_DUPLICATES%22%3A%222%22%2C%22type%22%3A%22sponsor%2CtimerInteractive4NeoProtocol%2CbroadcasterScore%2Cactivity%2Ctbtv%2CupDownVideo%22%2C%22liveId%22%3A%22213552463615%22%2C%22n%22%3A%226%22%2C%22CONTENTS_FILE_DESCRIPTOR%22%3A%221%22%7D
+https://guide-acs.m.taobao.com/gw/mtop.taobao.iliad.task.action/1.0/?data=%7B%22scopeId%22%3A%22970%22%2C%22trackParams%22%3A%22%7B%5C%22activityId%5C%22%3A%5C%22213451376728%5C%22%2C%5C%22broadcasterId%5C%22%3A%5C%222001468878%5C%22%2C%5C%22userId%5C%22%3A%5C%223689364123%5C%22%7D%22%2C%22action%22%3A%22stay%22%2C%22params%22%3A%22%7B%5C%22stayTime%5C%22%3A6%7D%22%2C%22subScope%22%3A%222001468878_1_213451376728%22%7D
 
 
+{"tab":"2","limit":"20","topic":"1e6b4dfd-2478-4ad7-96f4-f1f46fdcce86","paginationContext":"{\"commentId\":213446500293,\"refreshTime\":1541994156116,\"timestamp\":1541994155000}","order":"asc"}
+
+
+"FAIL_SYS_PROTOVER_MISSED::缺少协议版本(m-pv)"
+
+
+aapt dump badging taobao-8.1.10-2754-o_1cqut5k84h421fkh1qav1oojoqaq-uid-97100.apk >J:\Downloader\app\apk.txt
+
+
+com.taobao.taobao
+com.taobao.tao.welcome.Welcome
+
+
+下滑
+self.driver.swipe(FLICK_START_X, FLICK_START_Y + 800, FLICK_START_X, FLICK_START_Y)
+
+
+进入直播页
+el0 = driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[3]/android.widget.ImageView")
+el0.click()
+
+
+搜索直播
+点击搜索
+el1 = driver.find_element_by_accessibility_id("search")
+el1.click()
+
+宝诗嫣
+
+输入内容
+el2 = driver.find_element_by_id("com.taobao.taobao:id/taolive_search_edit_text")
+el2.clear()
+el2.send_keys("宝诗嫣")
+点击搜索
+el3 = driver.find_element_by_id("com.taobao.taobao:id/taolive_search_button")
+el3.click()
+点击第一个内容
+el4 = driver.find_element_by_id("com.taobao.taobao:id/taolive_search_avatar_info")
+el4.click()
+
+
+
+https://bbs.csdn.net/topics/392270288
+
+
+
+
+
+
+
+
+
+
+
+mitmdump -s script.py
+
+
+
+
+弹幕json
+
+{"api":"mtop.taobao.iliad.comment.query.latest","data":{"comments":[{"commentId":"213446520049","commodities":[],"content":"800","paginationContext":"{\"commentId\":213446520049,\"refreshTime\":1541994176367,\"timestamp\":1541994156000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=1574793484&width=40&height=40&type=sns","publisherId":"1574793484","publisherNick":"默默的爱2003","renders":{"taoqihi":"501","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994156000"},{"commentId":"213522846602","commodities":[],"content":"买不了","paginationContext":"{\"commentId\":213522846602,\"refreshTime\":1541994176367,\"timestamp\":1541994156000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=720242922&width=40&height=40&type=sns","publisherId":"720242922","publisherNick":"幸子435","renders":{"taoqihi":"983","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994156000"},{"commentId":"213557267373","commodities":[],"content":"808","paginationContext":"{\"commentId\":213557267373,\"refreshTime\":1541994176367,\"timestamp\":1541994161000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=2504722599&width=40&height=40&type=sns","publisherId":"2504722599","publisherNick":"yang妞51633130","renders":{"taoqihi":"588","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994161000"},{"commentId":"213486109590","commodities":[],"content":"33","paginationContext":"{\"commentId\":213486109590,\"refreshTime\":1541994176367,\"timestamp\":1541994167000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=869710201&width=40&height=40&type=sns","publisherId":"869710201","publisherNick":"袁园金堂","renders":{"taoqihi":"805","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994167000"},{"commentId":"213557271432","commodities":[],"content":"买不了","paginationContext":"{\"commentId\":213557271432,\"refreshTime\":1541994176367,\"timestamp\":1541994167000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=720242922&width=40&height=40&type=sns","publisherId":"720242922","publisherNick":"幸子435","renders":{"taoqihi":"983","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994167000"},{"commentId":"213557219807","commodities":[],"content":"33","paginationContext":"{\"commentId\":213557219807,\"refreshTime\":1541994176367,\"timestamp\":1541994168000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=378354005&width=40&height=40&type=sns","publisherId":"378354005","publisherNick":"爱我握紧我的手","renders":{"taoqihi":"1052","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"1"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994168000"},{"commentId":"213557211795","commodities":[],"content":"33","paginationContext":"{\"commentId\":213557211795,\"refreshTime\":1541994176367,\"timestamp\":1541994169000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=762775272&width=40&height=40&type=sns","publisherId":"762775272","publisherNick":"永恒战001","renders":{"taoqihi":"400","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994169000"},{"commentId":"213446540088","commodities":[],"content":"33","paginationContext":"{\"commentId\":213446540088,\"refreshTime\":1541994176367,\"timestamp\":1541994171000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=3459657348&width=40&height=40&type=sns","publisherId":"3459657348","publisherNick":"诚实的小猫01","renders":{"taoqihi":"744","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994171000"},{"commentId":"213446504256","commodities":[],"content":"33","paginationContext":"{\"commentId\":213446504256,\"refreshTime\":1541994176367,\"timestamp\":1541994172000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=2783104808&width=40&height=40&type=sns","publisherId":"2783104808","publisherNick":"花花的世界的花花","renders":{"taoqihi":"686","render_audit":"true","APASS_USER":"0","fanLevel":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994172000"},{"commentId":"213522834804","commodities":[],"content":"⁂∰⏇follow","paginationContext":"{\"commentId\":213522834804,\"refreshTime\":1541994176367,\"timestamp\":1541994172000}","pictures":[],"publisherIcon":"//wwc.alicdn.com/avatar/getAvatar.do?userId=2779748587&width=40&height=40&type=sns","publisherId":"2779748587","publisherNick":"刘昱龙888","renders":{"taoqihi":"663","render_audit":"true","APASS_USER":"0","VIP_USER":"0"},"replyToCommentId":"0","replyToUserId":"0","timestamp":"1541994172000"}],"delay":"5000","paginationContext":"{\"commentId\":213522834804,\"refreshTime\":1541994176367,\"timestamp\":1541994172000}"},"ret":["SUCCESS::调用成功"],"v":"1.0"}
 
 
 
